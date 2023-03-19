@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechPRO</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- STYLES -->
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <!-- ==================================== HEADER ==================================== -->
+    <header class="header">
+      <div class="container header-content">
+        <!-- ==================================== IMAGEN HEADER ==================================== -->
+        <div class="image-header">
+          <picture>
+            <source
+              sizes="1920w"
+              srcset="img/header.avif 1920w"
+              type="image/avif"
+            />
+            <source
+              sizes="1920w"
+              srcset="img/header.webp 1920w"
+              type="image/webp"
+            />
+            <source
+              sizes="1920w"
+              srcset="img/header.jpg 1920w"
+              type="image/jpeg"
+            />
+            <img
+              loading="lazy"
+              decoding="async"
+              src="img/header.jpg"
+              lazyalt="imagen"
+              width="1000"
+              height="500"
+            />
+          </picture>
+        </div>
+        <!-- ==================================== END IMAGEN HEADER ==================================== -->
+        <div class="text-header">
+          <p class="tagline-product">Sonido Profesional</p>
+          <h1 class="name-product gradient-green">TechPRO</h1>
+          <p class="description-product">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure,
+            obcaecati aperiam recusandae eaque commodi adipisci vero. Quis quod,
+            voluptate, id asperiores non, cupiditate dolore debitis aliquam
+            aperiam harum beatae praesentium.
+          </p>
+          <p class="price-product">Desde <span>$299</span></p>
+        </div>
+      </div>
+    </header>
+    <!-- ==================================== END HEADER ==================================== -->
+
+    <section class="container">  <!-- ==================================== ICONS ==================================== -->
+      <div class="icons">
+        <div class="icon">
+          <img
+            src="img/icono-sonido.svg"
+            alt="sonido"
+            width="300"
+            height="300"
+          />
+          <h3>Gran sonido</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+            praesentium nam temporibus perspiciatis, rerum, ex laboriosam modi.
+          </p>
+        </div>
+
+        <div class="icon">
+          <img
+            src="img/icono-garantia.svg"
+            alt="sonido"
+            width="300"
+            height="300"
+          />
+          <h3>Garantia de por vida</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+            praesentium nam temporibus perspiciatis, rerum, ex laboriosam modi.
+          </p>
+        </div>
+
+        <div class="icon">
+          <img
+            src="img/icono-bateria.svg"
+            alt="sonido"
+            width="300"
+            height="300"
+          />
+          <h3>+20 horas de bateria</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+            praesentium nam temporibus perspiciatis, rerum, ex laboriosam modi.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- ==================================== END ICONS ==================================== -->
+
+    <section class="about-tech">  <!-- ==================================== ABOUT TECH ==================================== -->
+      <div class="container about-tech-grid">
+        <div class="text-about-tech">
+          <h2>Sobre los <span>TechPRO</span></h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque fugit molestias, veritatis Lorem ipsum dolor sit amet consectetur adipisicing elit!</p>
+        </div>
+      </div>
+    </section>
+
+
+    <main class="container models"> <!-- ==================================== MODELS ==================================== -->
+      <h2 class="text-center gradient-green header-models">Elige tus TechPRO</h2>
+      <div class="models-list">
+
+        <div class="model model-x">
+          <h3>TechPRO X</h3>
+          <p class="price">$299</p>
+        </div>
+
+
+        <div class="model model-y">
+          <h3>TechPRO Y</h3>
+          <p class="price">$399</p>
+        </div>
+
+        <div class="model model-z">
+          <h3>TechPRO Z</h3>
+          <p class="price">$499</p>
+        </div>
+      </div>
+      
+    </main>
+    <!-- ==================================== END MODELS ==================================== -->
+
+    <section class="newsletter"> <!-- ==================================== NEWSLETTER ==================================== -->
+      <div class="container-newsletter container">
+        <div class="text-newsletter">
+          <h2>Recibe Actualizaciones</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam laboriosam beatae repellendus a soluta quas!</p>
+
+          <form class="form">
+            <div class="input">
+              <input type="text" placeholder="Tu email" >
+            </div>
+
+            <input type="submit" value="Inscribirse">
+          </form>
+        </div>
+      </div>
+    </section> 
+    <!-- ==================================== NEWSLETTER ==================================== -->
+
+    <footer class="footer">
+      <p>Todos los derechos reservados</p>
+    </footer>
+
+
+    <!-- IMAGES LIBRARY -->
+    <script src="js/images.js"></script>
+  </body>
+</html>
